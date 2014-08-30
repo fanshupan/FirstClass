@@ -7,7 +7,7 @@
 //  Copyright (c) 2014年 ___FULLUSERNAME___. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "FAppDelegate.h"
 
 @implementation AppDelegate
 
