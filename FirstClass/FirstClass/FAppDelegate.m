@@ -8,6 +8,7 @@
 //
 
 #import "FAppDelegate.h"
+#import "CarClass.h"
 
 @implementation AppDelegate
 
@@ -17,8 +18,20 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    CarClass *mycar=[[CarClass alloc]init];
+    //mycar.carColor = @"red";
+   
+    [mycar printCarColor:@"red"];
+    mycar.carColor = @"black";
+    [mycar startEngine:1 startName:@"fan shu pan"];
+    
+    
+    NSLog(@"division : %d",[mycar getNumberOfDivision]);
     return YES;
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
