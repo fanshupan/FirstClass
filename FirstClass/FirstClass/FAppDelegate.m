@@ -9,6 +9,8 @@
 
 #import "FAppDelegate.h"
 #import "CarClass.h"
+#import "companyClass.h"
+
 
 @implementation AppDelegate
 
@@ -21,13 +23,44 @@
     
     CarClass *mycar=[[CarClass alloc]init];
     //mycar.carColor = @"red";
-   
+
     [mycar printCarColor:@"red"];
     mycar.carColor = @"black";
     [mycar startEngine:1 startName:@"fan shu pan"];
     
     
     NSLog(@"division : %d",[mycar getNumberOfDivision]);
+    
+    companyClass *myCompany=[[companyClass alloc]init];
+    
+    [myCompany calculateSalary:@"123"]; 
+    
+    
+    int salary=0;
+    salary =[myCompany calculateSalary:@"123"];
+    
+    NSLog(@"salary:%d",salary);
+    
+
+    
+    NSLog(@"yearSalary:%d", [myCompany allCalculate:@"1234" salaryType:10]);
+    
+    
+    int yearSalary ;
+    int mothSalary;
+    yearSalary=[myCompany allCalculate:@"456" salaryType:2];
+    mothSalary=[myCompany allCalculate:@"123" salaryType:2];
+    NSLog(@"yearSalary=%d",yearSalary);
+    //NSLog(@"mothSalary=%d",mothSalary);
+
+    [myCompany getClientByemployeesId:@"123"];
+    NSArray *clentArray=[myCompany getClientByemployeesId:@"123"];
+    NSLog(@"client:%@",clentArray);
+    
+    
+    
+    
+    
     return YES;
 }
 

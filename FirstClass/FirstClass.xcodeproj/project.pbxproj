@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7F4C3B3919B2BEEF008B7F85 /* CarClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4C3B3819B2BEEF008B7F85 /* CarClass.m */; };
 		7F4C3B3C19B2CF45008B7F85 /* redCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4C3B3B19B2CF45008B7F85 /* redCar.m */; };
+		7F66E51519CD18430065AB09 /* companyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F66E51419CD18430065AB09 /* companyClass.m */; };
 		7F95B7EC19B19ACF00537B23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F95B7EB19B19ACF00537B23 /* Foundation.framework */; };
 		7F95B7EE19B19ACF00537B23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F95B7ED19B19ACF00537B23 /* CoreGraphics.framework */; };
 		7F95B7F019B19ACF00537B23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F95B7EF19B19ACF00537B23 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 		7F4C3B3819B2BEEF008B7F85 /* CarClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarClass.m; sourceTree = "<group>"; };
 		7F4C3B3A19B2CF45008B7F85 /* redCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redCar.h; sourceTree = "<group>"; };
 		7F4C3B3B19B2CF45008B7F85 /* redCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = redCar.m; sourceTree = "<group>"; };
+		7F66E51319CD18430065AB09 /* companyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = companyClass.h; sourceTree = "<group>"; };
+		7F66E51419CD18430065AB09 /* companyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = companyClass.m; sourceTree = "<group>"; };
 		7F95B7E819B19ACF00537B23 /* FirstClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F95B7EB19B19ACF00537B23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F95B7ED19B19ACF00537B23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +129,8 @@
 				7FA2C6B819B1ADA50021AE17 /* test.m */,
 				7F4C3B3A19B2CF45008B7F85 /* redCar.h */,
 				7F4C3B3B19B2CF45008B7F85 /* redCar.m */,
+				7F66E51319CD18430065AB09 /* companyClass.h */,
+				7F66E51419CD18430065AB09 /* companyClass.m */,
 			);
 			path = FirstClass;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F66E51519CD18430065AB09 /* companyClass.m in Sources */,
 				7F95B7FC19B19ACF00537B23 /* FAppDelegate.m in Sources */,
 				7F4C3B3919B2BEEF008B7F85 /* CarClass.m in Sources */,
 				7F95B7F819B19ACF00537B23 /* main.m in Sources */,
